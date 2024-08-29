@@ -1,1 +1,0 @@
-![Screenshot of a finished Kahoot quiz with Freya in fifth place. All questions answered correctly.](./images/kahoot-quiz-01.png "quiz result")

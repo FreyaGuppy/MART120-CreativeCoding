@@ -1,0 +1,1 @@
+At the time of writing this, I still have not been able to push any edits using GitHub for Desktop. This assignment I just did directly in the GitHub website. Hopefully I'll be able to figure out why that error is popping up soon.

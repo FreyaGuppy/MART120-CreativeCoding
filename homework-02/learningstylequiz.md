@@ -1,4 +1,4 @@
-### Your Scores:
+### "Your Scores:
 * Auditory: 25%
 * Tactile: 40%
 * Visual: 35%
@@ -20,4 +20,6 @@ Here are some things that tactile learners like you can do to learn better:
 * It's okay to tap a pencil, shake your foot, or hold on to something while learning.
 * Use a computer to reinforce learning through the sense of touch.
 
-Remember that you learn best by doing, not just by reading, seeing, or hearing.
+Remember that you learn best by doing, not just by reading, seeing, or hearing."
+
+##### This does kind of make sense, but my scores are relatively evenly spread. I don't really have any significant bias towards one learning style according to this quiz. It makes sense to me that I learn best using a combination of all three. As a person who needs to fidget a lot of the time, and also as someone who does art, I do think tactile learning is pretty significant for me.

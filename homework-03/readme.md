@@ -1,0 +1,1 @@
+I have still been having issues pushing files using GitHub Desktop. I am just going to upload the files directly to the GitHub website, but to make a new folder on the website, it seems like I have to create a file to go along with it, or esle the new folder won't save. So this is that file. 

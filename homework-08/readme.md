@@ -1,0 +1,1 @@
+For my own ease of uploading, I am just uploading the contact page, without all of the other pages, CSS, and images. The JavaScript should work just fine but it won't look as good as before because of the missing CSS. If you wish to see it as intended, go back to homework 7 and download the other files, replacing the old contact.html with this one. 

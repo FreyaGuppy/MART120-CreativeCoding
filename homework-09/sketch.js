@@ -74,4 +74,8 @@ function draw()
         stroke (19, 22, 46);
         textFont ('palatino', [15]);
         text('Freya', 100, 345);
+
+        fill (200);
+        textFont ('serif', [25]);
+        text('Self Portrait', 30, 30);
     }

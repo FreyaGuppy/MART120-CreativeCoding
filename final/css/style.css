@@ -1,0 +1,30 @@
+body {
+    background-color: blanchedalmond;
+}
+
+h1, h3 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h3 {
+    color:rgb(133, 92, 31);
+    font-size:170%;
+}
+
+p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 110%;
+}
+
+button {
+    background-color:rgb(119, 186, 164);
+}
+
+div {
+    width:500px;
+}
+
+a {
+    color:rgb(119, 186, 164);
+    
+}

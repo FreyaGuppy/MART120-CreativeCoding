@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Freya Gooday">
+
+        <title>
+            Contact Us
+        </title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            #form {
+                margin-left: 30px;
+            }
+            button {
+                background-color:  #ffa947;
+                color: rgb(135, 36, 3);
+                border-style:double;
+                border-color:rgb(135, 36, 3);
+            }
+
+            #terms-box {
+                height:120px;
+                width:300px;
+                border:1px solid #ccc;
+                overflow:auto;
+            }
+
+            #terms-text {
+                color: grey;
+            }
+
+        </style>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script>
+            function focusFName()
+            {
+                document.getElementById("fName").focus();
+            }
+            function checkForm() 
+            {
+                var firstName = document.getElementById("fName").value;
+                var lastName = document.getElementById("lName").value;
+                var emailVar = document.getElementById("email").value;
+
+                if (emailVar == "")
+                {
+                    document.getElementById("email").style.backgroundColor = "pink";
+                    document.getElementById("email").focus();
+                    document.getElementById("emailAlert").innerHTML = " *Required";
+                }
+
+                if (lastName == "")
+                {
+                    document.getElementById("lName").style.backgroundColor = "pink";
+                    document.getElementById("lName").focus();
+                    document.getElementById("lNameAlert").innerHTML = " *Required";
+                }
+
+                if(firstName == "")
+                {
+                    document.getElementById("fName").style.backgroundColor = "pink";
+                    document.getElementById("fName").focus();
+                    document.getElementById("fNameAlert").innerHTML = " *Required";
+                }
+
+                if(document.getElementById("myCheckbox").checked == false)
+                {
+                    document.getElementById("checkboxAlert").innerHTML = " *Required";
+                }
+
+            }
+               
+
+                
+            
+        </script>
+    </head>
+
+
+    <body onload="focusFName()">
+        <div class="navbar">
+            <a class="active "href="./index.html">Homepage</a>
+            <a href="./story.html">Rapunzel Summary</a>
+            <a href="./contact.html">Contact Us</a>
+        </div>
+
+        <div id="form">
+            <h1 style="font-family:Arial, Helvetica, sans-serif">Contact Us</h1>
+            First name: <input type="text" id="fName"><span id="fNameAlert"></span>
+            <br/>
+            Last name: <input type="text" id="lName"><span id="lNameAlert"></span>
+            <br/>
+            Email address: <input type="text" id="email"><span id="emailAlert"></span>
+            <br/>
+            <br/>
+            <div id="terms-box">
+                <p id="terms-text">Terms and conditions: I agree to do a little dance when I click "submit" on this form. I also agree to give Freya $15 cash so that she can repay this person who lent her money. She does have the money but just hasn't gotten around to getting cash. Actually, she has like $8 already so she'd really only need $7 cash.
+                </p>
+            </div>
+            <input type="checkbox" id="myCheckbox" onclick="checkForm()">Agree<br><span id="checkboxAlert"></span>
+            <br/>
+            <button id="submit" onclick="checkForm();">Submit</button>
+        </div>
+        
+    </body>
+</html>

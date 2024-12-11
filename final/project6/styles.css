@@ -1,0 +1,51 @@
+/*
+Must use at least two inline styles. YES
+> Must use embedded styles on a page affecting at least three tags. YES
+> Must use an external style sheet. YES
+> Must class selectors in your external style sheet that affect at least two tags in your page YES
+> Must have id selectors in your external style sheet that affect at least two tags in your page YES
+> Your contact us page must use either a CDN reference to Bootstrap (or another external CSS library) or a downloaded (local) version. YES
+> Add a background image using CSS to your second page - the one with the story YES
+*/
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(209, 242, 243);
+    color: rgb(10, 40, 67);
+}
+a {
+    color:rgb(135, 36, 3);
+    text-decoration: none;
+}
+.navbar {
+    background-color: #ffa947;
+    overflow: hidden;
+}
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+a:visited {
+    color:#b56000
+}
+
+a:hover {
+    color:#ffcd93
+}
+
+#summary-image {
+    background-image: url(./images/rapunzel-background.jpg);
+    background-repeat: no-repeat;
+}
+
+#summary-text {
+    width: 75%;
+    color: rgb(255, 255, 255);
+}
+
+.darken {
+    color: rgb(160, 168, 161);
+}
